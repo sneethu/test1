@@ -35,4 +35,9 @@ public class HelloService {
 		/* comment 5 remote */
 	}
 
+    public void hiBranch1(){
+        String s = "Sumanth";
+        System.out.println("Hi" + s);
+    }
+
 }

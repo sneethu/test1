@@ -24,6 +24,7 @@ package org.springframework.integration.samples.helloworld;
 public class HelloService {
 
 	public String sayHello(String name) {
+		/* comment 2 remote */
 		return "Hello " + name;
 	}
 

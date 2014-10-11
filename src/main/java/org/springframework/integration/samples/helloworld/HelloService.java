@@ -22,10 +22,12 @@ package org.springframework.integration.samples.helloworld;
  * @author Mark Fisher
  */
 public class HelloService {
-
+/* comment 3 remote */
 	public String sayHello(String name) {
 		/* comment 2 remote */
 		return "Hello " + name;
+		/* comment 4 remote */
+		/* comment 5 remote */
 	}
 
 }

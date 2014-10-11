@@ -24,6 +24,7 @@ package org.springframework.integration.samples.helloworld;
 public class HelloService {
 /* comment 3 remote */
 	public String sayHello(String name) {
+        /* comment 1 local */
 		/* comment 2 remote */
 		return "Hello " + name;
 		/* comment 4 remote */

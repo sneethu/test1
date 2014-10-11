@@ -25,8 +25,12 @@ public class HelloService {
 /* comment 3 remote */
 	public String sayHello(String name) {
         /* comment 1 local */
+
+        int i = 0;
 		/* comment 2 remote */
-		return "Hello " + name;
+        System.out.println(i);
+        return "Hello " + name;
+        
 		/* comment 4 remote */
 		/* comment 5 remote */
 	}

@@ -35,4 +35,7 @@ public class HelloService {
 		/* comment 5 remote */
 	}
 
+    public void hiMaster(){
+        System.out.println("Hi Master");
+    }
 }
